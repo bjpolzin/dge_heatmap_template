@@ -31,4 +31,4 @@ Additionally, please ensure that both of your DGE datasets contain identical gen
 
 ## Output <a name="output"></a>
 The script generates a heatmap that looks like this:
-![DGE Heatmap]
+![DGE Heatmap](heatmap_ex.png)
