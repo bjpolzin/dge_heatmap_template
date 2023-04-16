@@ -6,7 +6,7 @@
 5. [Output](#output)
 
 # Differential Gene Expression Heatmap <a name="differential-gene-expression-heatmap"></a>
-This repository contains an R script for creating a customizable heatmap for comparing differential gene expression (DGE) data between two groups. The heatmap provides a visually appealing and intuitive representation of the data, making it easier to identify trends in differential expression between two groups.
+This repository contains an R script for quickly creating a customizable heatmap for comparing differential gene expression (DGE) data between two groups. The heatmap provides a visually appealing and intuitive representation of the data, making it easier to identify trends in differential expression between two groups.
 
 ## Prerequisites <a name="prerequisites"></a>
 Before running the pipeline, please make sure you have the following R packages installed:
