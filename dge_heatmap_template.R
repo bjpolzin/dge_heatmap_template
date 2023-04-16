@@ -85,4 +85,3 @@ heat_map <- dge_hm_df %>%
 
 # Display heatmap
 heat_map
-             
