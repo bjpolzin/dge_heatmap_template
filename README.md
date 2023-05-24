@@ -22,6 +22,8 @@ In this script, the first dataset/group is designated as the "reference" group, 
 
 It's crucial that both of your DGE datasets contain identical gene IDs. The output results of the DGE method used (e.g., edgeR, DESeq2, etc.) might only include the most differentially expressed genes, rather than all analyzed genes. If the gene IDs don't match between the datasets, blank rows may appear in the heatmap. For example, filtering group 1's logFC by 0.75 might result in empty spaces on the right side of the heatmap if some of the genes are not present in group 2's dataset.
 
+If plotting DESeq2 results, I recommend using `lfcShrink()` for better visualizations. Please see here for more details: http://bioconductor.org/packages/devel/bioc/vignettes/DESeq2/inst/doc/DESeq2.html
+
 ## Usage <a name="usage"></a>
 1. Open the main R script in your working directory.
 2. Load the required libraries.
